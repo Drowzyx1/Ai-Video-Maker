@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Video Maker app",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py", "--server.headless", "false"],
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "preLaunchTask": "Set up tools",
+      "justMyCode": true
+    },
+    {
+      "name": "Make video from open .json file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/video_maker.py",
+      "args": ["${file}"],
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "preLaunchTask": "Set up tools",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+edge-tts>=6.1
+pillow>=10.0
+imageio-ffmpeg>=0.5
+fonttools>=4.40
+streamlit>=1.30

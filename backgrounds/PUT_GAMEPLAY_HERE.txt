@@ -1,0 +1,1 @@
+Put gameplay clips (.mp4/.mov) here, e.g. Minecraft parkour or GTA driving you recorded yourself. They show up in the app's Background menu.

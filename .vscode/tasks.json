@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "▶ Open Video Maker",
+      "detail": "Starts the app in the background if needed, then opens it in your browser",
+      "type": "shell",
+      "command": "bash launch.sh",
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Show app log",
+      "detail": "See what the background app is doing (errors show up here)",
+      "type": "shell",
+      "command": "tail -n 80 -f logs/app.log",
+      "presentation": { "reveal": "always", "panel": "dedicated" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Stop Video Maker",
+      "type": "shell",
+      "command": "pkill -f 'streamlit run app.py' && echo Stopped || echo 'It was not running'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Set up tools",
+      "detail": "Installs Python packages into .venv (runs automatically when needed)",
+      "type": "shell",
+      "command": "bash start.command --setup-only",
+      "presentation": { "reveal": "silent", "panel": "shared" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Make example video",
+      "detail": "Renders examples/moon.json into the output folder",
+      "type": "shell",
+      "command": "bash start.command --setup-only && .venv/bin/python video_maker.py examples/moon.json",
+      "presentation": { "reveal": "always", "panel": "shared" },
+      "problemMatcher": []
+    }
+  ]
+}

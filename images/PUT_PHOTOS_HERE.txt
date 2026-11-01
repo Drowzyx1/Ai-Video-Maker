@@ -1,0 +1,1 @@
+Put your own photos here (.jpg/.png). Name them after what they show, e.g. 'volcano-at-night.jpg', and 'image' scenes with a matching search will use them. Photos found online are saved in the 'downloaded' subfolder.

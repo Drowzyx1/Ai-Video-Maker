@@ -1,0 +1,43 @@
+{
+  "title": "What If the Moon Disappeared Tonight?",
+  "description": "The Moon does way more for Earth than look nice. Here's what would happen if it vanished.",
+  "tags": ["what if", "moon", "space", "science", "shorts"],
+  "scenes": [
+    {
+      "narration": "If the Moon vanished tonight, you'd notice the first problem before breakfast.",
+      "visual": {"type": "emoji", "content": "🌕 ➜ ❌", "color": "#1B2A6B"}
+    },
+    {
+      "narration": "That glowing rock is about three hundred eighty four thousand kilometers away.",
+      "visual": {"type": "image", "content": "full moon night sky", "label": "Our Moon", "color": "#1B2A6B"}
+    },
+    {
+      "narration": "But even from that far, it pulls on every ocean on Earth.",
+      "visual": {"type": "number", "content": "384,400 km", "label": "distance to the Moon", "color": "#22307A"}
+    },
+    {
+      "narration": "Without it, tides would shrink to about a third of their size, because only the Sun would be pulling.",
+      "visual": {"type": "comparison", "content": "Tides now: 100 | No Moon: 33", "color": "#0F5C6B"}
+    },
+    {
+      "narration": "Smaller tides mean trouble for coastal life. Crabs, snails, and seabirds all depend on that rhythm.",
+      "visual": {"type": "diagram", "content": "Weaker tides → Fewer tide pools → Less food → Coastal species struggle", "color": "#0F6B5C"}
+    },
+    {
+      "narration": "The bigger problem is slower. The Moon keeps Earth's tilt steady.",
+      "visual": {"type": "big_text", "content": "The Moon keeps Earth from *wobbling* 🌍", "color": "#5B2B8C"}
+    },
+    {
+      "narration": "Without it, our tilt could swing wildly over millions of years, scrambling the seasons.",
+      "visual": {"type": "emoji", "content": "☀️ ❄️ 🔥 🌪️", "color": "#7A2B5C"}
+    },
+    {
+      "narration": "So the Moon isn't just a night light. It's a stabilizer for the whole planet.",
+      "visual": {"type": "big_text", "content": "Not a night light. A *stabilizer.*", "color": "#2B3A8C"}
+    },
+    {
+      "narration": "Would you rather lose the Moon, or lose the Sun for one hour? Tell me below.",
+      "visual": {"type": "comparison", "content": "Lose the Moon 🌕 vs Lose the Sun for 1 hour ☀️", "color": "#8C3A2B"}
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Put royalty-free background music (.mp3) in this folder. It will show up in the app's sidebar.

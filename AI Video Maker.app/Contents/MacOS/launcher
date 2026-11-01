@@ -1,0 +1,7 @@
+#!/bin/bash
+# Finds the AI Video Maker project folder and runs its launch.sh.
+HERE="$(cd "$(dirname "$0")/../../.." && pwd)"          # the folder this .app sits in
+for d in "$HERE" "$HOME/Documents/career/Claude/ai-video-maker"; do
+  if [ -f "$d/launch.sh" ]; then exec /bin/bash "$d/launch.sh"; fi
+done
+osascript -e 'display dialog "Could not find the ai-video-maker folder. Keep AI Video Maker.app inside that folder (you can still drag it to the Dock)." with title "AI Video Maker" buttons {"OK"} with icon caution'

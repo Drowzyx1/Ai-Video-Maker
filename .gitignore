@@ -1,0 +1,27 @@
+# Python / tools
+.venv/
+__pycache__/
+*.pyc
+logs/
+
+# Personal settings (contains your API keys!)
+/settings.json
+/voices.json
+
+# Generated videos
+output/
+drafts/
+
+# Big or copyrighted media: keep these on your computer only
+backgrounds/*
+!backgrounds/PUT_GAMEPLAY_HERE.txt
+music/*
+!music/PUT_MUSIC_HERE.txt
+images/downloaded/
+images/*
+!images/PUT_PHOTOS_HERE.txt
+!images/full-moon-night-sky.jpg
+
+# macOS
+.DS_Store
+_to_delete/
